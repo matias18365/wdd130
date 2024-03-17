@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+:root {
+    --primary-color: #A4B9D1;
+    --secondary-color: #A7A7D0;
+    --accent1-color: #8079E1;
+    --accent2-color: #85A7D5;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Roboto', serif;
+
+    --nav-background-color: #78B9E7;
+    --nav-link-color: #A4B9D1;
+    --nav-hover-link-color: #A7A7D0;
+    --nav-hover-background-color: #8079E1;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, p{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+} /*AQUI VAMOSSS*/
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color:var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
+}
+.hero img, h1, article {
+    display: block;
+    width: 100%;
+    height: auto;
+    .hero img, h1, article {
+        display: block;
+        width: 100%;
+        height: auto;
+        float: left;
+    
+    }
+    
+
+}
+img{
+    float: left;
+}
+
