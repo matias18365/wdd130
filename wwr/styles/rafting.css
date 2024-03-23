@@ -18,27 +18,52 @@ body {
     --nav-hover-link-color: #2E86AB;
     --nav-hover-background-color: #f4f7498c;
 }
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
+
 h1, h2, p{
     font-family: var(--heading-font);
     color: var(--primary-color);
 } /*AQUI VAMOSSS*/
 header {
-    padding: 20px;
+    padding: 1rem;
     background-color: var(--accent1-color);
+    margin: 1rem 1rem;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
 }
+
+.logo img {
+    width: 70px;
+    height: auto
+}
+
 p {
     padding: 25px;
 }
+
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display: flex;
+    text-align: right
 }
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 100%
+}
+
+.navigation a {
+	display: block;
+	color: var(--nav-link-color);
+	padding: 1 rem;
+	text-decoration: none;
+}
+
 nav a {
     display: block;
     color: var(--nav-link-color);
@@ -52,16 +77,19 @@ nav a:hover {
     color:var(--nav-hover-background-color);
     background-color: var(--nav-hover-background-color);
 }
-.hero img, h1, article {
+
+h1, article {
     display: block;
     width: 100%;
     height: auto;
     float: left;
 }
-    
 
+.hero img{
+    margin: 0 0.25rem 0 1rem;
+    height: auto;
+}
 
 img{
     float: left;
 }
-
