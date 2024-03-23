@@ -14,9 +14,9 @@ body {
     --paragraph-font: 'Roboto', serif;
 
     --nav-background-color: #F24236;
-    --nav-link-color: #2E86AB;
-    --nav-hover-link-color: #F6F5AE;
-    --nav-hover-background-color: #F5F749;
+    --nav-link-color: #564138;
+    --nav-hover-link-color: #2E86AB;
+    --nav-hover-background-color: #f4f7498c;
 }
 body {
     font-family: var(--paragraph-font);

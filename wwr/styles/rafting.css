@@ -5,18 +5,18 @@ body {
     padding: 20px;
 }
 :root {
-    --primary-color: #A4B9D1;
-    --secondary-color: #A7A7D0;
-    --accent1-color: #8079E1;
-    --accent2-color: #85A7D5;
+    --primary-color: #564138;
+    --secondary-color: #2E86AB;
+    --accent1-color: #F6F5AE;
+    --accent2-color: #F5F749;
 
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Roboto', serif;
 
-    --nav-background-color: #78B9E7;
-    --nav-link-color: #A4B9D1;
-    --nav-hover-link-color: #A7A7D0;
-    --nav-hover-background-color: #8079E1;
+    --nav-background-color: #F24236;
+    --nav-link-color: #564138;
+    --nav-hover-link-color: #2E86AB;
+    --nav-hover-background-color: #f4f7498c;
 }
 body {
     font-family: var(--paragraph-font);
