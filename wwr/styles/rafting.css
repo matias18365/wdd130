@@ -56,16 +56,11 @@ nav a:hover {
     display: block;
     width: 100%;
     height: auto;
-    .hero img, h1, article {
-        display: block;
-        width: 100%;
-        height: auto;
-        float: left;
-    
-    }
+    float: left;
+}
     
 
-}
+
 img{
     float: left;
 }
