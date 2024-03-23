@@ -60,8 +60,8 @@ nav {
 .navigation a {
 	display: block;
 	color: var(--nav-link-color);
-	padding: 1 rem;
-	text-decoration: none;
+    text-decoration: none;
+	padding: 1 rem
 }
 
 nav a {
