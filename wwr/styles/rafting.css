@@ -34,6 +34,7 @@ header {
 }
 
 .logo img {
+    float: left;
     width: 70px;
     height: auto
 }
