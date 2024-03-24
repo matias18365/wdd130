@@ -90,13 +90,6 @@ main {
     grid-row-end: 3;
 }
 
-#subgrid {
-    grid-row: 2 / 3;
-    display: grid;
-    gap: inherit;
-    grid-template-rows: 1.5fr 1fr 1fr;
-}
-
 h1, article {
     display: block;
     width: 100%;
