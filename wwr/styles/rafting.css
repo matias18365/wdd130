@@ -94,8 +94,7 @@ main {
     grid-row: 2 / 3;
     display: grid;
     gap: inherit;
-    grid-template-rows: 1.5fr 1fr 1f;
-    
+    grid-template-rows: 1.5fr 1fr 1fr;
 }
 
 h1, article {
