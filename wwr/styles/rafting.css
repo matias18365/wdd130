@@ -19,24 +19,31 @@ body {
     --nav-hover-background-color: #f4f7498c;
 }
 
+.page{
+    display: grid;
+    grid-template-rows: 0.8fr 3.5fr 0.3fr;
+    gap: 15px;
+}
+
 h1, h2, p{
     font-family: var(--heading-font);
     color: var(--primary-color);
 } /*AQUI VAMOSSS*/
 header {
-    padding: 1rem;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 0.1rem;
     background-color: var(--accent1-color);
-    margin: 1rem 1rem;
+    margin: 0.5rem;
     grid-template-columns: 120px 1fr 2fr;
     align-items: center;
-    border-bottom: 1px solid #ccc;
     max-width: 1000px;
 }
 
 .logo img {
     float: left;
-    width: 70px;
-    height: auto
+    width: 93px;
+    height: auto;
 }
 
 p {
@@ -45,7 +52,7 @@ p {
 
 nav {
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: right
 }
 
