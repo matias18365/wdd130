@@ -97,11 +97,6 @@ h1, article {
     float: left;
 }
 
-.adventures {
-    grid-template-columns: repeat(5, 1fr);
-    align-items: center;
-}
-
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
