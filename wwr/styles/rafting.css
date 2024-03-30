@@ -5,7 +5,7 @@ body {
     padding: 20px;
 }
 :root {
-    --primary-color: #564138;
+    --primary-color: #362923;
     --secondary-color: #2E86AB;
     --accent1-color: #F6F5AE;
     --accent2-color: #F5F749;
@@ -13,7 +13,7 @@ body {
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Roboto', serif;
 
-    --nav-background-color: #85312b;
+    --nav-background-color: #e7a962;
     --nav-link-color: #564138;
     --nav-hover-link-color: #2E86AB;
     --nav-hover-background-color: #f4f7498c;
