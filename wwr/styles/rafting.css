@@ -176,6 +176,11 @@ figure {
     text-align: center;
   }
 
+.moquplogo {
+    width: 42px;
+    height: auto;
+}
+
 
 footer {
     grid-row-start: 3;
