@@ -6,7 +6,7 @@ body {
 }
 
 :root {
-    --primary-color: #08183a;
+    --primary-color: #b91111;
     --secondary-color: #2E86AB;
     --accent1-color: #F6F5AE;
     --accent2-color: #F5F749;
@@ -14,9 +14,14 @@ body {
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Roboto', serif;
 }
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
 header {
     padding: 20px;
     background-color: var(--accent1-color);
-    font-family: var(--heading-font);
     color: var(--primary-color);
 }

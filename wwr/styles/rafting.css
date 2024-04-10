@@ -19,16 +19,11 @@ body {
     --nav-hover-background-color: #f5f79823;
 }
 
-.page{
-    display: grid;
-    grid-template-rows: 0.3fr 3.5fr 0.3fr;
-    gap: 15px;
-}
-
 h1, h2, p{
     font-family: var(--heading-font);
     color: var(--primary-color);
 } /*AQUI VAMOSSS*/
+
 header {
     grid-row-start: 1;
     grid-row-end: 2;
@@ -47,7 +42,7 @@ header {
 }
 
 .photos img {
-    width: 2000px;
+    width: 940px;
     height: auto;
 }
 
@@ -163,11 +158,6 @@ figure {
     margin: auto;
   }
   
-  img {
-    max-width: 220px;
-    max-height: 150px;
-  }
-  
   figcaption {
     background-color: #222;
     color: #fff;
@@ -175,6 +165,12 @@ figure {
     padding: 3px;
     text-align: center;
   }
+
+/*
+img {
+    max-width: 220px;
+    max-height: 150px;
+}*/
 
 .moquplogo {
     width: 42px;
