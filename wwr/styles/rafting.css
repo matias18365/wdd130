@@ -177,6 +177,18 @@ img {
     height: auto;
 }
 
+.threeimagesrow {
+    display: flex;
+    padding: 5px;
+    max-width: 3 fr;
+    margin: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.threeimagesrow img {
+    float: left;
+    width: 220px;
+    height: auto;
+}
 
 footer {
     grid-row-start: 3;
