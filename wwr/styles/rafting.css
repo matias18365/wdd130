@@ -44,6 +44,7 @@ header {
 .photos img {
     width: 940px;
     height: auto;
+
 }
 
 .rectangle-5 {
@@ -183,16 +184,48 @@ img {
     max-width: 3 fr;
     margin: auto;
     grid-template-rows: 1fr 1fr 1fr;
+
 }
-.threeimagesrow img {
+/*.threeimagesrow img {
     float: left;
     width: 220px;
     height: auto;
+    border-radius: 20px;
+    padding: 1rem;
 }
 
 footer {
     grid-row-start: 3;
     grid-row-end: 4;
     font-size: 0.5px;
-    text-align: right
+    text-align: right;
+    
+}*/
+
+.threeimages {
+    position: relative;
+
+}
+.threeimages img {
+    position: absolute;
+    height: 15rem;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.threeimages h1 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 10%;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: auto;
+}
+
+.threeimages p {
+    z-index: 1;
+    border: auto;
+    margin-top: 40%;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 4rem;
+    font-size: 0.7rem;
 }

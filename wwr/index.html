@@ -1,74 +1,76 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home Page</title>
-        <meta name="description" content="This is the home page where the client will land to get to know about about company.">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Gutierrez' Rafting Club</title>
+        <meta name="description" content="This is the Contact site that will help client get more information about us.">
         <meta name="author" content="Matias Gutierrez">
         <link rel="stylesheet" href="styles/rafting.css"></head>
     <body>
-        <header>
-            <div class="logo">
-                <img src="images/logo.png" alt="Rafting Site Logo">
-            </div>
-            <nav>
-                <ul class="navigation">
-                    <li><a href="http://127.0.0.1:5500/wwr/index.html">Home</a></li>
-                    <li><a href="http://127.0.0.1:5500/wwr/about.html">About Us</a></li>
-                    <li><a href="http://127.0.0.1:5500/wwr/trips.html">Trips</a></li>
-                    <li><a href="http://127.0.0.1:5500/wwr/contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="photos img" >    
-                <img src="images/happyclient.png" alt="happyclient">
-            </div>
-            <div>
-                <h1> Welcome! Your Next Adventure Is Waiting For You </h1>
-            </div>
-            <form>
-                <label for="q1">1. What is your name?</label><br>
+        <div class="page">
+            <header>
+                <div class="logo">
+                    <img src="images/logo.png" alt="Rafting Site Logo">
+                </div>
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="http://127.0.0.1:5500/wwr/index.html">Home</a></li>
+                        <li><a href="http://127.0.0.1:5500/wwr/about.html">About Us</a></li>
+                        <li><a href="http://127.0.0.1:5500/wwr/trips.html">Trips</a></li>
+                        <li><a href="http://127.0.0.1:5500/wwr/contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <div class="photos img" >    
+                    <img src="images/happyclient.png" alt="happyclient">
+                </div>
+                <div>
+                    <h1> Welcome! Your Next Adventure Is Waiting For You </h1>
+                </div>
+                <div class="threeimagesrow">
+                    <img src="images/image1.png" alt="image1">
+                    <img src="images/image2.png" alt="image2">
+                    <img src="images/image3.png" alt="image3">
+                </div>
+                <h1>Visit our Trips Page!</h1>
+                <button onclick="redirectToURL()">TRIPS PAGE</button>
+                <script>
+                    function redirectToURL() {
+                        window.location.href = "http://127.0.0.1:5500/wwr/trips.html";
+                        }
+                </script>
+                <form>
+                <label for="q1">What is your name?</label><br>
                 <input type="text" id="q1" name="q1"><br>
-                <label for="q2">2. What is you email address?</label><br>
-                <input type="text" id="q2" name="q3"><br>
-                <label for="q3">3. Would you like to subscribe to our news letter?</label><br>
-                <select id="q3" name="q3">
-                  <option value="" selected disabled>Choose One ...</option>
-                  <option value="Yes">Yes</option>
-                  <option value="Not, for now">Not, for now</option>
-                <button type="submit">Submit Anwsers</button>
-            </form>
-            <div class="threeimagesrow">
-                <img src="images/image1.png" alt="image1">
-                <img src="images/image2.png" alt="image2">
-                <img src="images/image3.png" alt="image3">
-            </div>
-            <h1>Visit our Trips Page!</h1>
-            <button onclick="redirectToURL()">TRIPS PAGE</button>
-            <script>
-                function redirectToURL() {
-                    window.location.href = "http://127.0.0.1:5500/wwr/trips.html";
-                    }
-            </script>
-        </main>
-        <footer>
-            <nav class="navigation">
-                <p>&copy;2024 - Gutierrez' Rafting Club - Matias Gutierrez</p>
-                <a href="https://www.facebook.com/matias.gutierrez.albarracin">
-                    <img src="images/facebook.svg" alt="Facebook">
-                </a>
-                <a href="https://twitter.com">
-                    <img src="images/twitter.svg" alt="Twitter">
-                </a>
-                <a href="https://www.instagram.com/matias18gutierrez/">
-                    <img src="images/instagram.svg" alt="Instagram">
-                </a>
-                <a href="https://app.moqups.com/Nodcziowkr4POnSLKdJb5eOtX9OYIobU/edit/page/ad64222d5">
-                    <img src="images/moquplogo.png" alt="moqups" class="moquplogo">
-                </a>
-            </nav>
-        </footer>
+                <label for="q2">What is your E-mail address?</label><br>
+                <input type="text" id="q2" name="q2"><br>
+                <label>
+                    <input type="checkbox" name="q4" id="q4" value="receive"> Receive Notifications
+                </label><br>
+                <label>
+                <input type="submit" value="Send information" id="q5"><br>
+                </label><br>
+                </form>
+            </main>
+            <footer>
+                <nav class="navigation">
+                    <p>&copy;2024 - Gutierrez' Rafting Club - Matias Gutierrez</p>
+                    <a href="https://www.facebook.com/matias.gutierrez.albarracin">
+                        <img src="images/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="images/twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="https://www.instagram.com/matias18gutierrez/">
+                        <img src="images/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="https://app.moqups.com/Nodcziowkr4POnSLKdJb5eOtX9OYIobU/edit/page/ad64222d5">
+                        <img src="images/moquplogo.png" alt="moqups" class="moquplogo">
+                    </a>
+                </nav>
+            </footer>
+        </div>
     </body>
 </html>
